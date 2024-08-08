@@ -14,9 +14,18 @@ document.querySelector('#menu-btn').onclick = () => {
     navbar.classList.toggle('active');
 }
 
+// shooping cart
 let cart = document.querySelector('.shopping-cart');
 
 document.querySelector('#cart-btn').onclick = () => {
     closer.style.display = "block";
     cart.classList.toggle('active');
+}
+
+// login form
+let loginForm = document.querySelector('.login-form');
+
+document.querySelector('#login-btn').onclick = () => {
+    closer.style.display = "block";
+    loginForm.classList.toggle('active');
 }
