@@ -257,7 +257,6 @@ section{
     right: -101%;
     z-index: 1000;
     width: 35rem;
-    /* height: 100vh; */
     background: #f0e8e4;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -303,7 +302,6 @@ section{
     right: -101%;
     z-index: 1000;
     width: 35rem;
-    /* height: 100vh; */
     background: #f0e8e4;
     padding: 2rem;
     padding-top: 8rem;
@@ -1160,6 +1158,65 @@ section{
     font-size: 13px;
 }
 /* basket end */
+
+/* contactus page start */
+.contact{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.contact form{
+    padding: 3rem;
+    margin: 2%;
+    border-radius: 3rem;
+    background: #f0e8e4;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 40rem;
+    flex: 1 1 40rem;
+}
+
+.contact form h3{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    color: #5e473e;
+}
+
+.contact form  span{
+    display: block;
+    padding-bottom: 1rem;
+    color: #b58d7e;
+    font-size: 1.6rem;
+}
+
+.contact form .box{
+    width: 100%;
+    background: none;
+    border-bottom: 0.1rem solid #5e473e;
+    font-size: 1.6rem;
+    color: #5e473e;
+    text-transform: none;
+    padding: .5rem 0;
+    margin-bottom: 1rem;
+}
+
+.contact form textarea{
+    height: 15rem;
+    resize: none;
+}
+
+.contact .map{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 40rem;
+    flex: 1 1 40rem;
+    width: 100%;
+    margin: 2%;
+    border-radius: 3rem;
+}
+/* contactus page end */
 
 /* footer start */
 .footer{
